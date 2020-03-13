@@ -183,12 +183,13 @@ need extra coefficients and right hand side terms.
 Numerical simulation
 --------------------
 
-To run the numerical simulation, download this archive, unpack it in the main
-SfePy directory and type:
+To run the numerical simulation, download the
+`archive <https://github.com/vlukes/example_poropiezo/archive/v1.zip>`_,
+unpack it in the main SfePy directory and type:
 
 .. code::
 
-   ./simply.py poropiezo_example/poropiezo_macro_dfc.py
+   ./simple.py example_poropiezo-1/poropiezo_macro_dfc.py
 
 This invoke the :code:`simply.py` script which calculates the macroscopic
 problem :eq:`eq-macro` and calls the homogenization engine that solves the

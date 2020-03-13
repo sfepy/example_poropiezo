@@ -9,9 +9,9 @@
 #
 # Run simulation:
 #
-#   ./simple.py poropiezo_example/poropiezo_macro_dfc.py
+#   ./simple.py example_poropiezo-1/poropiezo_macro_dfc.py
 #
-# The results are stored in `poropiezo_example/results` directory.
+# The results are stored in `example_poropiezo-1/results` directory.
 #
 
 import sys
@@ -22,7 +22,7 @@ from sfepy.base.base import Struct
 from sfepy.homogenization.micmac import get_homog_coefs_linear
 from sfepy.homogenization.recovery import recover_micro_hook_eps
 
-data_dir = 'poropiezo_example'
+data_dir = 'example_poropiezo-1'
 
 
 def set_grad(ts, coors, mode=None, problem=None, **kwargs):

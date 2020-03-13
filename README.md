@@ -1,4 +1,4 @@
-Numerical simulation of periodic fluid-saturated piezoeletric media
+Numerical simulation of fluid-saturated piezoelectric porous media
 ===================================================================
 
 * [Example Page](http://sfepy.org/tmp/poropiezo_example/)

@@ -10,8 +10,8 @@
    :maxdepth: 2
    :caption: Contents:
 
-Numerical simulation of periodic fluid-saturated piezoeletric media
-===================================================================
+Numerical simulation of fluid-saturated piezoelectric porous media
+==================================================================
 
 Mathematical model
 ------------------

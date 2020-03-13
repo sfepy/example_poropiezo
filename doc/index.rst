@@ -68,6 +68,7 @@ fluid compressibility.
 
 Two-scale homogenization
 ------------------------
+
 .. _fig_domains:
 
 .. figure:: _static/comp_domains.png
@@ -187,7 +188,7 @@ SfePy directory and type:
 
 .. code::
 
-   ./simply.py poropiezo/poropiezo_macro_dfc.py
+   ./simply.py poropiezo_example/poropiezo_macro_dfc.py
 
 This invoke the :code:`simply.py` script which calculates the macroscopic
 problem :eq:`eq-macro` and calls the homogenization engine that solves the
@@ -196,7 +197,40 @@ coefficients :eq:`eq-coefs` and finally performs the reconstruction of the
 solutions at the microscopic level. See [CimrmanLukesRohan2019]_ for more details related
 to the SfePy homogenization engine.
 
+The macroscopic sample is fixed on its left side, so that no displacements are
+allowed, see :numref:`fig_bc_rec` left. The defromation is induced due to piezoelectric
+effect, as the responce to the prescribed electric potentials
+:math:`\bar\vphi^1`, :math:`\bar\vphi^2`, see :eq:`eq-macro`.
 
+.. _fig_bc_rec:
+
+.. figure:: _static/bcond_recovered.png
+   :height: 200px
+
+   Left - boundary conditions applied at the macroscopic level; right - revocered part of the macroscopic sample
+
+The deformed shape of the sample, pressure field :math:`p` and the magnitude of
+macroscopic strain :math:`\eb(\ub^0)` are depicted in
+:numref:`fig_macro_results`. The reconstructed strain and electric fields for a
+given :math:`\veps^0` in the part of the macroscopic domain are shown in
+:numref:`fig_recovered_results`.
+
+.. _fig_macro_results:
+
+.. figure:: _static/results_macro.png
+   :height: 300px
+
+   Deformed macroscopic sample and the resulting fields: left - pressure
+   :math:`p`; right - magnitude of macroscopic strain :math:`\eb`
+
+
+.. _fig_recovered_results:
+
+.. figure:: _static/results_recovered.png
+   :height: 300px
+
+   Magnitudes of reconstructed fields: left - strain field :math:`\eb^{mic}`;
+   right - electric field :math:`\vec{E}^{mic}`
 
 References
 ----------

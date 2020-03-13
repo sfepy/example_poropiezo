@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="1047.729"
+   height="489.75308"
+   viewBox="0 0 1047.729 489.75308"
+   sodipodi:docname="results_recovered.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/vlukes/work/sfepy/poropiezo_example/doc/_static/results_macro.png"
+   inkscape:export-xdpi="55.356827"
+   inkscape:export-ydpi="55.356827">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1326"
+     inkscape:window-height="642"
+     id="namedview4"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.65313973"
+     inkscape:cx="510.62264"
+     inkscape:cy="234.66983"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22677165;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:0.22677165, 1.81417323;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect310"
+     width="1047.729"
+     height="489.75308"
+     x="0"
+     y="0" />
+  <image
+     sodipodi:absref="/home/vlukes/work/sfepy/recoverd_e.png"
+     y="4.8240414"
+     x="74.36689"
+     id="image569"
+     xlink:href="file:///home/vlukes/work/sfepy/recoverd_e.png"
+     preserveAspectRatio="none"
+     height="480"
+     width="473" />
+  <image
+     sodipodi:absref="/home/vlukes/work/sfepy/xyz.png"
+     y="367.72791"
+     x="0"
+     id="image699"
+     xlink:href="file:///home/vlukes/work/sfepy/xyz.png"
+     preserveAspectRatio="none"
+     height="122.02517"
+     width="133.68935"
+     style="stroke-width:1.11452413" />
+  <image
+     sodipodi:absref="/home/vlukes/work/sfepy/recoverd_E.png"
+     y="4.8240414"
+     x="563.36688"
+     id="image764"
+     xlink:href="file:///home/vlukes/work/sfepy/recoverd_E.png"
+     preserveAspectRatio="none"
+     height="479"
+     width="474" />
+</svg>

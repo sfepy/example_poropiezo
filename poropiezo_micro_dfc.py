@@ -9,9 +9,9 @@
 #
 # Run calculation of homogeized coefficients:
 #
-#   ./homogen.py poropiezo/poropiezo_micro_dfc.py
+#   ./homogen.py poropiezo_example/poropiezo_micro_dfc.py
 #
-# The results are stored in `poropiezo/results` directory.
+# The results are stored in `poropiezo_example/results` directory.
 #
 
 import sys
@@ -24,7 +24,7 @@ from sfepy.discrete.fem.mesh import Mesh
 import sfepy.homogenization.coefs_base as cb
 from sfepy.base.base import Struct
 
-data_dir = 'poropiezo'
+data_dir = 'poropiezo_example'
 
 
 def data_to_struct(data):

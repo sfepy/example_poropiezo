@@ -9,9 +9,9 @@
 #
 # Run simulation:
 #
-#   ./simple.py poropiezo/poropiezo_macro_dfc.py
+#   ./simple.py poropiezo_example/poropiezo_macro_dfc.py
 #
-# The results are stored in `poropiezo/results` directory.
+# The results are stored in `poropiezo_example/results` directory.
 #
 
 import sys
@@ -22,7 +22,7 @@ from sfepy.base.base import Struct
 from sfepy.homogenization.micmac import get_homog_coefs_linear
 from sfepy.homogenization.recovery import recover_micro_hook_eps
 
-data_dir = 'poropiezo'
+data_dir = 'poropiezo_example'
 
 
 def set_grad(ts, coors, mode=None, problem=None, **kwargs):
@@ -229,7 +229,7 @@ def define(grid0=16, bcmode='example'):
     }
 
     options = {
-        'output_dir': 'output',
+        'output_dir': osp.join(data_dir, 'results'),
         'nls': 'newton',
         'absolute_mesh_path': True,
         'recover_micro': True,

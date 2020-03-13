@@ -102,11 +102,11 @@ html_context = {
     # Set the following variables to generate the resulting github URL for each page.
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'vlukes',
-    'github_repo': 'sfepy_poropiezo_example',
+    'github_repo': 'poropiezo_example',
     'github_version': 'master/doc/',
     'menu_links_name': 'Connections',
     'menu_links': [
-        ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/vlukes/sfepy_poropiezo_example'),
+        ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/vlukes/poropiezo_example'),
         ('<i class="fa fa-file-text fa-fw"></i> The Paper', 'https://doi.org/10.1016/j.ijsolstr.2018.05.017'),
         ('<i class="fa fa-external-link fa-fw"></i> SfePy', 'https://sfepy.org'),
     ],

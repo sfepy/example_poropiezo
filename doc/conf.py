@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# poropiezo_example documentation build configuration file, created by
+# example_poropiezo documentation build configuration file, created by
 # sphinx-quickstart on Thu Mar 12 09:03:54 2020.
 #
 # This file is execfile()d with the current directory set to its
@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'poropiezo_example'
+project = u'sfepy_example_poropiezo'
 copyright = u'2020, Vladimír Lukeš, Eduard Rohan'
 author = u'Vladimír Lukeš, Eduard Rohan'
 
@@ -105,7 +105,7 @@ html_context = {
     'github_repo': 'example_poropiezo',
     'menu_links_name': 'Connections',
     'menu_links': [
-        ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/vlukes/example_poropiezo'),
+        ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/sfepy/example_poropiezo'),
         ('<i class="fa fa-file-text fa-fw"></i> The Paper', 'https://doi.org/10.1016/j.ijsolstr.2018.05.017'),
         ('<i class="fa fa-external-link fa-fw"></i> SfePy', 'https://sfepy.org'),
     ],
@@ -136,7 +136,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'poropiezo_exampledoc'
+htmlhelp_basename = 'example_poropiezodoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -177,7 +177,7 @@ imgmath_latex_preamble = r"""
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'poropiezo_example.tex', 'poropiezo\\_example Documentation',
+    (master_doc, 'example_poropiezo.tex', 'poropiezo\\_example Documentation',
      'Vladimír Lukeš, Eduard Rohan', 'manual'),
 ]
 
@@ -186,7 +186,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'poropiezo_example', 'poropiezo_example Documentation',
+    (master_doc, 'example_poropiezo', 'example_poropiezo Documentation',
      [author], 1)
 ]
 
@@ -197,8 +197,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'poropiezo_example', 'poropiezo_example Documentation',
-     author, 'poropiezo_example', 'One line description of project.',
+    (master_doc, 'example_poropiezo', 'example_poropiezo Documentation',
+     author, 'example_poropiezo', 'One line description of project.',
      'Miscellaneous'),
 ]
 

@@ -101,7 +101,7 @@ html_context = {
     # 'display_github': True,
     # Set the following variables to generate the resulting github URL for each page.
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
-    'github_user': 'vlukes',
+    'github_user': 'sfepy',
     'github_repo': 'example_poropiezo',
     'menu_links_name': 'Connections',
     'menu_links': [
@@ -127,6 +127,8 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_style = 'sfepy.css'
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -170,37 +172,4 @@ imgmath_latex_preamble = r"""
 \def\eeb#1{\eb\left(#1\right)}
 \def\Hspace{\vec{H}_\#^1}
 \def\Uspace{\boldsymbol{\mathcal U}}
-"""   
-
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'example_poropiezo.tex', 'poropiezo\\_example Documentation',
-     'Vladimír Lukeš, Eduard Rohan', 'manual'),
-]
-
-# -- Options for manual page output ---------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'example_poropiezo', 'example_poropiezo Documentation',
-     [author], 1)
-]
-
-
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'example_poropiezo', 'example_poropiezo Documentation',
-     author, 'example_poropiezo', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+"""

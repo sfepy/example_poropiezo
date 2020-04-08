@@ -181,7 +181,7 @@ Numerical simulation
 --------------------
 
 To run the numerical simulation, download the
-`archive <https://github.com/vlukes/example_poropiezo/archive/v1.zip>`_,
+`archive <https://github.com/sfepy/example_poropiezo/archive/v1.zip>`_,
 unpack it in the main SfePy directory and type:
 
 .. code::
